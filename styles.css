@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #2fbcf3;
+  font-size: 2rem;
+}
+
+#main {
+  margin: auto;
+  font-family: 'Roboto Mono', sans-serif;
+  text-align: center;
+}
+
+#header {
+  margin: 5px;
+  padding: 30px 30px;
+  border: 2.5px solid #767e84;
+  border-radius: 10px;
+  background-color: #d9e2f1;
+}
+
+h1 {
+  margin: 10px;
+  text-align: left;
+  color: #1c6381;
+}
+
+h2 {
+  margin: 10px;
+  font-family: 'Roboto Condensed';
+  color: #1c6381;
+  text-align: left;
+}
+
+#img-div {
+  padding: 10px 0 0 0;
+  margin: 5px;
+  border: 2.5px solid #767e84;
+  border-radius: 10px;
+  background-color: #d9e2f1;
+}
+
+#section {
+  margin: 5px;
+  border: 2.5px solid #767e84;
+  border-radius: 10px;
+  background-color: #d9e2f1;
+}
+    
+section {
+  width: 60%;
+  margin: auto;
+  padding: auto;
+  line-height: 2;
+  color: #0d3444;
+}
+
+ul {
+  list-style: none; 
+  padding: 0; 
+  margin-left: 10px;
+  margin-bottom: 30px; 
+  text-align: left;
+
+}
+
+li::before {
+  color: #03256c;
+  content: "\2713";
+  padding-right: 3px;
+}
+
+img {
+  display: block;
+  max-width: 30%;
+  padding: 0;
+  margin: auto;
+}
+
+#img-caption {
+    margin: 5px;
+    padding: 3px;
+    font-family: 'Roboto Condensed';
+    border: 2.5px;
+}
+
+#headline {
+  margin: 35px 35px;
+}
+
+#div-cite {
+  color: #0d3444;
+  margin: 5px;
+  padding: 30px 30px;
+  line-height: 1.5;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 2.5px solid #a0a4a4;
+  border-radius: 10px;
+  background-color: #d9e2f1;
+}
+
+#link {
+  color: #0d3444;
+  padding: 30px 30px;
+  margin: 5px;
+  line-height: 1.5;
+  border: 2.5px solid #a0a4a4;
+  border-radius: 10px;
+  background-color: #d9e2f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: #2fbcf3;
+}
