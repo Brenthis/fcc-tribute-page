@@ -91,7 +91,7 @@ img {
 }
 
 #div-cite {
-  color: beige;
+  color: #f5f5dc;
   margin: 5px;
   padding: 30px 30px;
   line-height: 1.5;
@@ -108,14 +108,15 @@ img {
 
 a {
   text-decoration: none;
+  color: #212F3C;
 }
 
 a:visited {
-  color:navy;
+  color: #000080;
 }
 
 a:hover {
-  color: beige;
+  color: #f5f5dc;
 }
 
 @media (max-width: 460px){
